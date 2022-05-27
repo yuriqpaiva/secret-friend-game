@@ -37,6 +37,7 @@ const Sortition: React.FC = () => {
               setSelectedParticipant(event.target.value);
             }}
           >
+            <option>Selecione seu nome</option>
             {participants.map((participant) => {
               return (
                 <option value={participant} key={participant}>
