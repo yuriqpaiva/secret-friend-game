@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParticipantList } from '../state/hooks/useParticipantList';
 import { useSortitionResult } from '../state/hooks/useSortitionResult';
 import styles from './Sortition.module.css';
@@ -21,6 +21,13 @@ const Sortition: React.FC = () => {
 
     setSecretFriend(currentSecretFriend);
   };
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setSecretFriend('');
+    }, 5000);
+    return () => clearTimeout(timer);
+  }, [secretFriend]);
 
   return (
     <Card>
