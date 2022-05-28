@@ -3,7 +3,7 @@ import participant from '../../../assets/participante.png';
 
 const Header: React.FC = () => {
   return (
-    <header className={styles.header} role="heading">
+    <header className={styles.header} role="heading" aria-level={1}>
       <div
         className={styles.header__picture}
         aria-label="Logo do Sorteador"
