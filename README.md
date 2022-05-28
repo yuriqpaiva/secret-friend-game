@@ -53,3 +53,6 @@ Web application - Secret Friend game created by using TDD method with Jest and R
 
 <br/>
 
+## © License
+
+MIT License © Yuri Paiva
