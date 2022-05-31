@@ -42,13 +42,13 @@ Web application - Secret Friend game created by using TDD method with Jest and R
 ### Using NPM:
 
 ```
-  npm start
+  npm run dev
 ```
 
 ### Using Yarn:
 
 ```
-  yarn start
+  yarn dev
 ```
 
 <br/>
